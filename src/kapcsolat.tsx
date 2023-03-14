@@ -6,11 +6,11 @@ export default class Kapcsolat extends Component{
         return window.alert("Köszönjük");
     }
     render(): ReactNode {
-        return<div>
+        return<div className="kapcs">
             <form onSubmit={this.submit}>
-                <input type="email" required  placeholder="Email"/><br/>
-                <textarea  required/><br/>
-                <button>Küldés</button>
+                <input type="email" required  placeholder="Email" className="lol"/><br/>
+                <textarea  required placeholder="Üzenet" className="lol"/><br/>
+                <button className="lol">Küldés</button>
             </form>
         </div>
     }

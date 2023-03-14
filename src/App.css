@@ -2,3 +2,27 @@
   float: right;
   max-width: 8%;
 }
+.navbar{
+  position: relative;
+  background-color: darkgray;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+.asd{
+  padding: 10px;
+}
+
+.footer{
+  position: absolute;
+  bottom: 10px;
+  width: 50%;
+}
+.kapcs{
+  padding-top: 40px;
+}
+.lol{
+  margin-top: 20px;
+  padding: 10px;
+}
