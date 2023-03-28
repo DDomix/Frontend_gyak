@@ -6,8 +6,8 @@ export default class Nav extends Component{
         return<div>
             <nav className="navbar">
                 <Link to='/' className="asd">Főoldal</Link>
-                <Link to='/bemutatkozas' className="asd">Bemutatkozás</Link>
-                <Link to='/kapcsolat' className="asd">Kapcsolat</Link>
+                <Link to='/tapasztalat' className="asd">Szakmai tapasztalat</Link>
+                <Link to='/idopont' className="asd">Időpontfoglalás</Link>
             </nav>
         </div>
     }
